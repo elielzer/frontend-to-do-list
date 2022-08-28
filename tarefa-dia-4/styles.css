@@ -1,0 +1,107 @@
+* {
+margin: 10px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+body{
+    /*font-family: 'Prompt', sans-serif;*/
+    background-color: hsl(59, 98%, 50%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    width: 50px;
+    margin:10px; 
+    border-color: blue;
+}
+
+main {
+    width: 786px;
+    margin:auto; 
+}
+
+.title {
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.title, .subtitle {
+    color: rgb(61, 41, 109);
+    text-align: center;
+}
+
+#new-task {
+    background-color: hsl(180, 22%, 96%)  ;
+    border: 3px  rgb(11, 11, 228);
+    padding: auto;
+    width: 50%;
+    height: 30px;
+    outline: none;
+    font-size: 14px;
+    color: #0f1726;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-family: cursive;
+}
+
+.buttonAdd {
+    background-color: #70cfb9;
+    padding: 10px;
+    border: #115892;
+    height:40px;
+    margin-left: 10px;
+    border-radius: 20px;
+    color: #0f1726;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/*.blueButton {*/
+    /*background-color: #4f6791;*/
+    /*color: #fff;*/
+    /*width: 40%;*/
+    /*margin-top: 40px;*/
+/*}*/
+
+#lista {
+    list-style: none;
+}
+
+#lista > li {
+    background-color: #dbdbdb;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    margin-top: 40px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.cancelaItem {
+    background-color: #bdbcbc;
+    width: 30px;
+    height: 16px;
+    line-height: 0;
+    border-radius: 2px;
+    border:none;
+    cursor: pointer;
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: #a9a9a9;
+}
+

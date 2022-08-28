@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="./styles.css"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de tarefas</title>
+    <title>To-Do-List</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css"/>
+
 </head>
 <body>
     <img class="logo" src="logo.ico" alt="Logo No!Stress Corporation">
     <main>
         <h1 class="title"> To-do-list </h1>
         <p class="subtitle">My first to-do-list </p>
+
+        <!--Input box "new-task"-->
         <input id="new-task" type="text" placeholder="Type your task here ..."/>
-        <!--criar um elemento botão para postar o texto da tarefa na lista de tarefas-->
-        <button class="buttonAdd" id="button-add">Add</button>
-        <div class="box">
-            <ul id="list">
-                <li></li>
-            </ul>
-            <button class="blueButton">Reset</button>
+
+        <!--create a button element to post task text to list-->
+        <button class = "buttonAdd" id="button-add">Add</button>
+        <div class = "box">
+            <ul id = "list"></ul>
+
+            <!--create a button element to restart a new list-->
+            <button class="buttonAdd blueButton">Reset</button>
+
         </div>
 
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
